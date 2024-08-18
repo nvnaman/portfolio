@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://kit.fontawesome.com/54bf7684bb.js" crossorigin="anonymous"></script>
+    <title>Naman - Developer Portfolio</title>
+    <style>
+      body {
+        background-color: rgb(60, 60, 208);
+        color: aliceblue;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 80px;
+        background-color: blueviolet;
+      }
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+      nav ul li {
+        list-style: none;
+        margin: 0 23px;
+      }
+      nav ul li a {
+        text-decoration: none;
+        color: aliceblue;
+      }
+      nav ul li a:hover {
+        color: rgb(163, 30, 30);
+        font-size: 1rem;
+      }
+      main hr {
+        border: 0;
+        background: rgb(58, 58, 172);
+        height: 1.2px;
+        margin: 30px 60px;
+      }
+      .left {
+        font-size: 2.5rem;
+      }
+      .firstsection {
+        display: flex;
+        justify-content: space-around;
+        margin: 110px 0;
+        align-items: center;
+      }
+      .firstsection > div {
+        width: 30%;
+      }
+      .leftsection {
+        font-size: 2.5rem;
+      }
+      .rightsection img {
+        width: 100%;
+      }
+      .purple {
+        color: rgb(185, 123, 244);
+      }
+      .text-gray {
+        color: rgb(240, 208, 208);
+      }
+      #element {
+        color: aquamarine;
+      }
+      .secondsection {
+        max-width: 80vw;
+        margin: auto;
+        height: 80vh;background: rgb(133, 141, 229);
+      }
+      .secondsection h1 {
+        font-size: 2.5rem;
+      }.secondsection .box{
+        background: white;
+        width: 77vw;
+        height: 2px;
+        margin: 60px 0; display: flex;
+      }
+      .secondsection .vertical{
+        height: 90px;
+        width: 1px;
+        background-color: aliceblue;
+        margin: 0 110px;
+      }
+      .image-top{
+        width: 40px;
+        position:relative;
+        top: -40px;
+        left: -10px;
+      }.vertical-text{
+        position: relative;
+        top: 75px;
+        width: 150px;font-size: 20px;
+      }.vertical-desc{
+        position: relative;
+        top: 86px;
+        width: 150px;
+        font-size: 13px;
+        color: azure;}
+     /* Footer Base Style */
+footer{
+  background:rgb(37, 212, 235) ;padding-top: 50px;
+}
+.container{
+  width: 1000px;margin: auto;display: flex;justify-content: center;
+}.footer-content{
+  width: 33.3%;
+}h3{
+  font-size: 28px;margin-bottom: 15px;text-align: center;
+}footer.content{
+  width: 190px;margin: auto;padding: 7px;
+
+}footer.content ul{
+  text-align: center;
+}.list{
+  padding: 0;
+}.list li{
+width: auto;text-align: center;list-style-type: none;padding: 7px;position: relative;
+} .list li::before{
+  content: '';
+  position: absolute;
+  transform: translate(-50%,-50%);
+  left: 50%;top: 50%; width: 0;height: 2px;
+  background: rgb(123, 181, 219);transition-duration: .5s;
+}.list li:hover::before{
+  width: 70px;
+}.social-icons{
+  text-align: center;padding: 0;
+}.social-icons li{
+  display: inline-block;text-align: center;padding: 5px;
+}.social-icons i{
+  color: rgb(16, 124, 219);font-size: 30px;
+}a{
+  text-decoration: none;
+}a:hover{
+  color: rgb(38, 44, 98);
+}.social-icons i:hover{
+  color: rgb(76, 32, 119);
+}.bottom-bar{
+background:rgb(200, 75, 238) ;
+text-align: center;padding: 10px 0;margin-top: 50px;
+}.bottom bar p{
+  color: rgb(87, 62, 213);margin: 0;font-size: 16px;padding: 7px;
+}
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Naman Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Service</a></li>
+            <li><a href="/">Project</a></li>
+            <li><a href="/">Contact me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="firstsection">
+        <div class="leftsection">
+          Hi My name is <span class="purple">Naman Verma</span>
+          <div>I am a passionate</div>
+          <span id="element"></span>
+        </div>
+        <div class="rightsection">
+          <img
+            src="pngtree-developers-are-coding-programs-on-computers-programmers-are-analyzing-data-png-image_11902650.png"
+            alt=""
+          />
+        </div>
+      </section>
+      <hr />
+      <section class="secondsection">
+        <span class="text-gray">What I have done So far</span>
+        <h1>Work on Technology</h1>
+        <div class="box">
+          <div class="vertical">
+            <img class="image-top" src="pngwing.com.png" alt="">
+            <div class="vertical-text">
+              HTML Development
+            </div>
+            <div class="vertical-desc">
+             Learn Html for web development
+
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="pngwing.com (1).png" alt="">
+            <div class="vertical-text">
+              CSS
+            </div>
+            <div class="vertical-desc">
+              Learn CSS 3
+              for Enhancing style of Html webpages
+            </div>
+          </div>
+          <div class="vertical"><img class="image-top" src="pngwing.com (2).png" alt="">
+            <div class="vertical-text">
+              JS
+            </div>
+            <div class="vertical-desc">
+             Learn jS for functionality 
+             in webpages
+            </div></div>
+          <div class="vertical"><img class="image-top" src="pngwing.com (3).png" alt="">
+            <div class="vertical-text">
+              AWS Solution Architect
+            </div>
+            <div class="vertical-desc">
+              Learn this cloud computing 
+              skill for enhancing the productivity
+            </div></div>
+          <div class="vertical"><img class="image-top" src="dev.png" alt="">
+            <div class="vertical-text">
+              JAVA programming
+            </div>
+            <div class="vertical-desc">
+             Learn Java programming for 
+             DSA problem solving
+            </div></div>
+          </div>
+          
+        </div>
+      </section><hr>
+    </main>
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <h3>About Us</h3><img src="photo.png" alt="">
+          <p>Email:namanv320@gmail.com</p>
+          <p>phone:+91-8887501802</p>
+          <address>VG railway colony langra phatak alambagh lucknow</address>
+
+        </div>
+        <div class="footer-content">
+          <h3>QuickLinks
+          </h3>
+          <ul class="list">
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Service</a></li>
+            <li><a href="">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-content">
+          <h3>Follow Us</h3>
+          <ul class="social-icons">
+          <li><i href="#"><i class="fab fa-facebook"></i></a></li>
+          <li><i href="#"><i class="fab fa-twitter"></i></a></li>
+          <li><i href="#"><i class="fab fa-youtube"></i></a></li>
+          <li><i href="#"><i class="fab fa-linkedin"></i></a></li>
+        </ul> </div>
+      </div>
+      <div class="bottom-bar"><p>2024 your company.All rights reserved</p></div>
+    </footer>
+   
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Web Developer", " Java Programmer", "  Tech Student"],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
